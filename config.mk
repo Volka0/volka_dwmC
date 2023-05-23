@@ -1,5 +1,9 @@
 # dwm version
+<<<<<<< HEAD
 VERSION = 6.5
+=======
+VERSION = 6.4
+>>>>>>> Baseline DWM
 
 # Customize below to fit your system
 

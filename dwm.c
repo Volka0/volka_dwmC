@@ -1851,7 +1851,11 @@ updatebarpos(Monitor *m)
 }
 
 void
+<<<<<<< HEAD
 updateclientlist(void)
+=======
+updateclientlist()
+>>>>>>> Baseline DWM
 {
 	Client *c;
 	Monitor *m;
