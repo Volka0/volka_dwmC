@@ -29,6 +29,7 @@ static const char dmenufont[]       = "monospace:size=10";
 static unsigned int baralpha        = 0xd0;
 static unsigned int borderalpha     = OPAQUE;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Compiles succesfully
 =======
 >>>>>>> New colorscheme Transfer and Active Indicators patch applied and merged
@@ -49,6 +50,18 @@ static const char *colors[][3]      = {
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
 >>>>>>> New colorscheme Transfer and Active Indicators patch applied and merged
+=======
+static const char norm_fg[]         = "#0abdc6";
+static const char norm_bg[]         = "#091833";
+static const char norm_border[]     = "#091833";
+static const char sel_fg[]          = "#ea00d9";
+static const char sel_bg[]          = "#321959";
+static const char sel_border[]      = "#ea00d9";
+static const char *colors[][3]      = {
+    /*               fg       bg       border   */
+    [SchemeNorm] = { norm_fg, norm_bg, norm_border },
+    [SchemeSel]  = { sel_fg,  sel_bg,  sel_border  },
+>>>>>>> New colorscheme Transfer and Active Indicators patch applied and merged + Fixed errors
 };
 
 /* tagging */
@@ -91,11 +104,16 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Adjust dmenu command accordingly */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn",dmenufont, "-nb", norm_bg, "-nf", norm_fg, "-sb", sel_bg, "-sf", sel_fg, NULL };
 =======
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 >>>>>>> New colorscheme Transfer and Active Indicators patch applied and merged
+=======
+/* Adjust dmenu command accordingly */
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn",dmenufont, "-nb", norm_bg, "-nf", norm_fg, "-sb", sel_bg, "-sf", sel_fg, NULL };
+>>>>>>> New colorscheme Transfer and Active Indicators patch applied and merged + Fixed errors
 static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
