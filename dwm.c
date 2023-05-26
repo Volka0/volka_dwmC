@@ -1636,10 +1636,14 @@ setup(void)
 	/* init appearance */
 	scheme = ecalloc(LENGTH(colors), sizeof(Clr *));
 <<<<<<< HEAD
+<<<<<<< HEAD
   unsigned int alphas[] = {borderalpha, baralpha, OPAQUE};
 =======
   unsigned int alphas[] = {borderalpha, baralpha, OPAQUE}
 >>>>>>> update 'alpha' path for dwm6.4
+=======
+  unsigned int alphas[] = {borderalpha, baralpha, OPAQUE};
+>>>>>>> Compiles succesfully
 	for (i = 0; i < LENGTH(colors); i++)
 		scheme[i] = drw_scm_create(drw, colors[i], alphas, 3);
 	/* init bars */
@@ -1878,10 +1882,14 @@ updatebars(void)
 		.override_redirect = True,
     .background_pixel = 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
     .border_pixel = 0, 
 =======
     .border_pixel = 0 
 >>>>>>> update 'alpha' path for dwm6.4
+=======
+    .border_pixel = 0, 
+>>>>>>> Compiles succesfully
     .colormap = cmap,
 		.event_mask = ButtonPressMask|ExposureMask
 	};
