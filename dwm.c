@@ -1634,7 +1634,7 @@ setup(void)
 	cursor[CurMove] = drw_cur_create(drw, XC_fleur);
 	/* init appearance */
 	scheme = ecalloc(LENGTH(colors), sizeof(Clr *));
-  unsigned int alphas[] = {borderalpha, baralpha, OPAQUE}
+  unsigned int alphas[] = {borderalpha, baralpha, OPAQUE};
 	for (i = 0; i < LENGTH(colors); i++)
 		scheme[i] = drw_scm_create(drw, colors[i], alphas, 3);
 	/* init bars */
@@ -1872,7 +1872,7 @@ updatebars(void)
 	XSetWindowAttributes wa = {
 		.override_redirect = True,
     .background_pixel = 0,
-    .border_pixel = 0 
+    .border_pixel = 0, 
     .colormap = cmap,
 		.event_mask = ButtonPressMask|ExposureMask
 	};
