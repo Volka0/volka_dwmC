@@ -6,6 +6,7 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const char *fonts[]          = { "monospace:size=14" };
 static const char dmenufont[]       = "monospace:size=14";
 static unsigned int baralpha        = 0xd0;
@@ -19,6 +20,10 @@ static const char sel_border[]      = "#ea00d9";
 =======
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
+=======
+static const char *fonts[]          = { "monospace:size=14" };
+static const char dmenufont[]       = "monospace:size=14";
+>>>>>>> minor tweaks
 static unsigned int baralpha        = 0xd0;
 static unsigned int borderalpha     = OPAQUE;
 <<<<<<< HEAD
