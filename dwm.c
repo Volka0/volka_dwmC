@@ -1852,10 +1852,14 @@ updatebarpos(Monitor *m)
 
 void
 <<<<<<< HEAD
+<<<<<<< HEAD
 updateclientlist(void)
 =======
 updateclientlist()
 >>>>>>> Baseline DWM
+=======
+updateclientlist(void)
+>>>>>>> Updated from upstream url
 {
 	Client *c;
 	Monitor *m;
