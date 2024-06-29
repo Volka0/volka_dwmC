@@ -58,15 +58,10 @@
 #define TAGMASK                 ((1 << LENGTH(tags)) - 1)
 #define TEXTW(X)                (drw_fontset_getwidth(drw, (X)) + lrpad)
 
-<<<<<<< .merge_file_TJxAqX
 #define OPAQUE                  0xffU
 
-#define OPAQUE                  0xffU
-
-=======
 #define GAP_TOGGLE 100
 #define GAP_RESET  0
->>>>>>> .merge_file_5O26gB
 
 /* enums */
 enum { CurNormal, CurResize, CurMove, CurLast }; /* cursor */

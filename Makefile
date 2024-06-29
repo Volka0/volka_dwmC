@@ -6,21 +6,14 @@ include config.mk
 SRC = drw.c dwm.c util.c
 OBJ = ${SRC:.c=.o}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 all: dwm
-=======
-all: options dwm
 
 options:
 	@echo dwm build options:
 	@echo "CFLAGS   = ${CFLAGS}"
 	@echo "LDFLAGS  = ${LDFLAGS}"
 	@echo "CC       = ${CC}"
->>>>>>> Baseline DWM
-=======
 all: dwm
->>>>>>> Updated from upstream url
 
 .c.o:
 	${CC} -c ${CFLAGS} $<
@@ -56,12 +49,4 @@ uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/dwm\
 		${DESTDIR}${MANPREFIX}/man1/dwm.1
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .PHONY: all clean dist install uninstall
-=======
-.PHONY: all options clean dist install uninstall
->>>>>>> Baseline DWM
-=======
-.PHONY: all clean dist install uninstall
->>>>>>> Updated from upstream url

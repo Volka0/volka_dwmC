@@ -1,13 +1,5 @@
 # dwm version
-<<<<<<< HEAD
-<<<<<<< HEAD
 VERSION = 6.5
-=======
-VERSION = 6.4
->>>>>>> Baseline DWM
-=======
-VERSION = 6.5
->>>>>>> Updated from upstream url
 
 # Customize below to fit your system
 
