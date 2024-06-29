@@ -1975,7 +1975,7 @@ updatebarpos(Monitor *m)
 }
 
 void
-updateclientlist(void)
+updateclientlist()
 {
 	Client *c;
 	Monitor *m;
